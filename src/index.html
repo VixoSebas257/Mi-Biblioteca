@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Biblioteca</title>
+    <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Mi Biblioteca</h1>
+
+<div class="buscador">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <input
+        type="text"
+        id="busqueda"
+        placeholder="Buscar juego..."
+    >
+</div>
+
+<div class="biblioteca" id="biblioteca">
+    </div>
+
+    <button id="btnAgregar">+ Añadir Juego</button>
+    <div id="formularioJuego" class="formulario-juego">
+
+    <h2>Añadir juego</h2>
+
+    <label for="nombreJuego">Nombre del juego:</label>
+
+    <input type="text" id="nombreJuego">
+
+    <button id="btnSeleccionarPortada">Seleccionar portada</button>
+    <img id="vistaPreviaPortada">
+
+    <button id="btnGuardarJuego">Guardar</button>
+    <button id="btnCancelarJuego">Cancelar</button>
+
+</div>
+ 
+    <script src="renderer.js"></script>
+
+</body>
+</html>

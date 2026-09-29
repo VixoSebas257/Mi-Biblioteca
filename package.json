@@ -1,0 +1,29 @@
+{
+  "name": "launcherjuegos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+  "start": "electron .",
+  "dist": "electron-builder"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "electron": "^28.3.3",
+    "electron-builder": "^26.15.3"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^7.3.1"
+  },
+  "build": {
+  "appId": "com.vicente.mibiblioteca",
+  "productName": "Mi Biblioteca",
+  "win": {
+    "target": "nsis",
+    "icon": "icon.ico"
+  }
+}
+}
